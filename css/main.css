@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "BebasB";
+	src: url("../fonts/BebasNeue Bold.otf");
+}
+
+@font-face {
+	font-family: "Bebas";
+	src: url("../fonts/BebasNeue Regular.otf");
+}
+
+h1,
+h2 {
+	font-family: BebasB;
+}
+
+h1 {
+	font-size: 90px;
+}
+
+h2 {
+	font-size: 65px;
+}
+
+h3,
+h4 {
+	font-family: Bebas;
+}
+
+h3 {
+	font-size: 55px;
+}
+
+h4 {
+	font-size: 45px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 30px;
+}
