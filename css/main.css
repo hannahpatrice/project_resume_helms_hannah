@@ -1,40 +1,87 @@
+/* FONTS */
 @font-face {
-	font-family: "BebasB";
-	src: url("../fonts/BebasNeue Bold.otf");
+    font-family: "BebasB";
+    src: url("../fonts/BebasNeue Bold.otf");
 }
 
 @font-face {
-	font-family: "Bebas";
-	src: url("../fonts/BebasNeue Regular.otf");
+    font-family: "Bebas";
+    src: url("../fonts/BebasNeue Regular.otf");
 }
 
+/* BASIC TEXT */
 h1,
 h2 {
-	font-family: BebasB;
+    font-family: BebasB;
 }
 
 h1 {
-	font-size: 90px;
+    font-size: 90px;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 5%;
 }
 
 h2 {
-	font-size: 65px;
+    font-size: 65px;
 }
 
 h3,
 h4 {
-	font-family: Bebas;
+    font-family: Bebas;
 }
 
 h3 {
-	font-size: 55px;
+    font-size: 55px;
 }
 
 h4 {
-	font-size: 45px;
+    font-size: 45px;
 }
 
 p {
-	font-family: Arial;
-	font-size: 30px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+/* HEADER */
+header {
+    background-color: #89cbc9;
+    margin: auto;
+    text-align: center;
+    padding: 5% 1%;
+}
+
+header p {
+    font-size: 45px;
+    color: white;
+    margin: 2%;
+}
+
+@media all and (min-width: 1000px) {
+
+    header img {
+        display: inline-block;
+        max-width: 470px;
+        padding-right: 5%;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        flex-wrap: nowrap;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    header p {
+        font-size: 35px;
+    }
+
+    aside {
+        align-self: center;
+}
 }
