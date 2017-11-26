@@ -118,16 +118,18 @@ header p {
 }
 
 aside {
-	padding: 3%;
+    padding: 3%;
 }
 
 @media all and (min-width: 1000px) {
-	.education img{
+    .education img{
         display: inline-block;
         align-self: center;
     }
 
-	.education aside {
-		width: 50%;
-	}
+    .education aside {
+        width: 50%;
+    }
 }
+
+/* EXPERIENCE */
