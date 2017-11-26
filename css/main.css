@@ -163,10 +163,6 @@ aside {
     padding: 2%;
 }
 
-.nah {
-    display: none;
-}
-
 @media all and (min-width: 1000px) {
 
     .containerwrap {
@@ -178,7 +174,7 @@ aside {
 
     .containerwrap article {
         margin: 2%;
-		width: calc(85%/3);
+        width: calc(85%/3);
     }
 
     .experience h3 {
@@ -190,10 +186,6 @@ aside {
     }
 
     .experience img {
-        max-width: 200px;
-    }
-
-    .nah {
-        display: block;
+        max-width: 150px;
     }
 }
