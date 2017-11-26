@@ -166,7 +166,7 @@ aside {
 @media all and (min-width: 1000px) {
 
     .containerwrap {
-        width: 85%;
+        width: 50%;
         margin: auto;
         flex-wrap: wrap;
         display: flex;
@@ -174,18 +174,18 @@ aside {
 
     .containerwrap article {
         margin: 2%;
-        width: calc(85%/3);
+        margin-top: 0;
     }
 
     .experience h3 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .experience p {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .experience img {
-        max-width: 150px;
+        max-width: 200px;
     }
 }
