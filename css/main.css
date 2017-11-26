@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -169,14 +170,15 @@ aside {
 @media all and (min-width: 1000px) {
 
     .containerwrap {
-        width: 75%;
+        width: 85%;
         margin: auto;
         flex-wrap: wrap;
         display: flex;
     }
 
     .containerwrap article {
-        width: calc(70%/3);
+        margin: 2%;
+		width: calc(85%/3);
     }
 
     .experience h3 {
