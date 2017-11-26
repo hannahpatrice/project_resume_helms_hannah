@@ -45,7 +45,8 @@ h3 {
 }
 
 h4,
-p {
+p,
+li {
     font-family: Arial;
 }
 
@@ -53,8 +54,13 @@ h4 {
     font-size: 30px;
 }
 
-p {
+p,
+li {
     font-size: 30px;
+}
+
+li {
+    margin-left: 3%;
 }
 
 /* HEADER */
@@ -140,7 +146,7 @@ aside {
 }
 
 .experience article {
-    margin: 5%;
+    margin: 15%;
     padding: 2%;
     background-image: url("../img/whitemarblebg.jpg");
     background-repeat: no-repeat;
@@ -163,10 +169,17 @@ aside {
     padding: 2%;
 }
 
+.experience article h4 {
+    font-family: Bebas;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
 @media all and (min-width: 1000px) {
 
     .containerwrap {
-        width: 50%;
+        width: 60%;
         margin: auto;
         flex-wrap: wrap;
         display: flex;
@@ -181,8 +194,8 @@ aside {
         font-size: 45px;
     }
 
-    .experience p {
-        font-size: 25px;
+    .experience li {
+        font-size: 22px;
     }
 
     .experience img {
