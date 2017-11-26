@@ -122,7 +122,8 @@ aside {
 }
 
 @media all and (min-width: 1000px) {
-    .education img{
+
+    .education img {
         display: inline-block;
         align-self: center;
     }
@@ -133,3 +134,64 @@ aside {
 }
 
 /* EXPERIENCE */
+.experience {
+    margin: auto;
+}
+
+.experience article {
+    margin: 5%;
+    padding: 2%;
+    background-image: url("../img/whitemarblebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: silver;
+}
+
+.experience article img {
+    margin: auto;
+    display: block;
+}
+
+.experience h2 {
+    color: white;
+}
+
+.experience article h3 {
+    text-align: center;
+    padding: 2%;
+}
+
+.nah {
+    display: none;
+}
+
+@media all and (min-width: 1000px) {
+
+    .containerwrap {
+        width: 75%;
+        margin: auto;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .containerwrap article {
+        width: calc(70%/3);
+    }
+
+    .experience h3 {
+        font-size: 35px;
+    }
+
+    .experience p {
+        font-size: 19px;
+    }
+
+    .experience img {
+        max-width: 200px;
+    }
+
+    .nah {
+        display: block;
+    }
+}
