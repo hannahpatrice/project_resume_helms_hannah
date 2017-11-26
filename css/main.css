@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #89cbc9;
+}
+
 /* FONTS */
 @font-face {
     font-family: "BebasB";
@@ -23,24 +33,26 @@ h1 {
 }
 
 h2 {
-    font-size: 65px;
-}
-
-h3,
-h4 {
-    font-family: Bebas;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 3%;
 }
 
 h3 {
     font-size: 55px;
+    font-family: Bebas;
+}
+
+h4,
+p {
+    font-family: Arial;
 }
 
 h4 {
-    font-size: 45px;
+    font-size: 30px;
 }
 
 p {
-    font-family: Arial;
     font-size: 30px;
 }
 
@@ -64,6 +76,7 @@ header p {
         display: inline-block;
         max-width: 470px;
         padding-right: 5%;
+        align-self: center;
     }
 
     .container {
@@ -74,14 +87,47 @@ header p {
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 75px;
     }
 
     header p {
         font-size: 35px;
     }
 
-    aside {
+    header aside {
         align-self: center;
+    }
 }
+
+/* EDUCATION */
+.education {
+    background-image: url("../img/whitemarblebg.jpg");
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin: auto;
+}
+
+.education h2,
+.education h3,
+.education h4,
+.education p {
+    text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
+}
+
+aside {
+	padding: 3%;
+}
+
+@media all and (min-width: 1000px) {
+	.education img{
+        display: inline-block;
+        align-self: center;
+    }
+
+	.education aside {
+		width: 50%;
+	}
 }
