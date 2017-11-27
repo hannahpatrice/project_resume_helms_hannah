@@ -139,8 +139,16 @@ aside {
     padding-top: 3%;
 }
 
+.skills div {
+    padding-top: 2%;
+}
+
 .educationskills article + h2 {
     padding-top: 15%;
+}
+
+h2 + .skills {
+	padding-top: 0;
 }
 
 @media all and (min-width: 1000px) {
@@ -172,6 +180,218 @@ aside {
     .star {
         max-width: 45px;
         display: inline-block;
+    }
+}
+
+/* STAR ANIMATION */
+
+.tossing{
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+    0% {
+        transform: rotate(-6deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+    100% {
+        transform: rotate(-6deg);
+    }
+}
+
+@-webkit-keyframes tossing {
+    0% {
+        -webkit-transform: rotate(-6deg);
+    }
+    50% {
+        -webkit-transform: rotate(6deg);
+    }
+    100% {
+        -webkit-transform: rotate(-6deg);
+    }
+}
+
+.tossing1{
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing1 {
+    0% {
+        transform: rotate(-5.5deg);
+    }
+    50% {
+        transform: rotate(5.5deg);
+    }
+    100% {
+        transform: rotate(-5.5deg);
+    }
+}
+
+@-webkit-keyframes tossing1 {
+    0% {
+        -webkit-transform: rotate(-5.5deg);
+    }
+    50% {
+        -webkit-transform: rotate(5.5deg);
+    }
+    100% {
+        -webkit-transform: rotate(-5.5deg);
+    }
+}
+
+.tossing2 {
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 3s;
+    -webkit-animation-duration: 3.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing2 {
+    0% {
+        transform: rotate(7deg);
+    }
+    50% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+@-webkit-keyframes tossing3 {
+    0% {
+        -webkit-transform: rotate(7deg);
+    }
+    50% {
+        -webkit-transform: rotate(-7deg);
+    }
+    100% {
+        -webkit-transform: rotate(7deg);
+    }
+}
+
+.tossing3 {
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing3 {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+@-webkit-keyframes tossing2 {
+    0% {
+        -webkit-transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+    }
+}
+
+.tossing4 {
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing4 {
+    0% {
+        transform: rotate(4.5deg);
+    }
+    50% {
+        transform: rotate(-4.5deg);
+    }
+    100% {
+        transform: rotate(4.5deg);
+    }
+}
+
+@-webkit-keyframes tossing4 {
+    0% {
+        -webkit-transform: rotate(4.5deg);
+    }
+    50% {
+        -webkit-transform: rotate(-4.5deg);
+    }
+    100% {
+        -webkit-transform: rotate(4.5deg);
+    }
+}
+
+.tossing5 {
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+
+    animation-duration: 3s;
+    -webkit-animation-duration: 3.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing5 {
+    0% {
+        transform: rotate(-6deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+    100% {
+        transform: rotate(-6deg);
+    }
+}
+
+@-webkit-keyframes tossing5 {
+    0% {
+        -webkit-transform: rotate(-6deg);
+    }
+    50% {
+        -webkit-transform: rotate(6deg);
+    }
+    100% {
+        -webkit-transform: rotate(-6deg);
     }
 }
 
