@@ -278,6 +278,7 @@ aside {
 
     .interests h3 {
         text-align: center;
+        padding-bottom: 5%;
     }
 
     .interests article {
@@ -292,4 +293,37 @@ aside {
         display: flex;
         margin: auto;
     }
+}
+
+/* FOOTER */
+footer {
+    background-image: url("../img/whitemarblebg.jpg");
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    font-family: Bebas;
+    padding: 5%;
+}
+
+button {
+    width: 50%;
+    background-color: #89cbc9;
+    color: white;
+    height: 200px;
+    border: 10px solid #89cbc9;
+    font-size: 92px;
+    font-family: BebasB;
+}
+
+button:hover {
+    background-color: inherit;
+    color: #89cbc9;
+    transition: 0.7s;
+    border: 10px solid #89cbc9;
 }
