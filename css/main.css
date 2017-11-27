@@ -136,11 +136,11 @@ aside {
 }
 
 .skills {
-	padding-top: 3%;
+    padding-top: 3%;
 }
 
 .educationskills article + h2 {
-	padding-top: 15%;
+    padding-top: 15%;
 }
 
 @media all and (min-width: 1000px) {
@@ -154,19 +154,19 @@ aside {
         width: 50%;
     }
 
-	.educationskills article + h2 {
-		padding-top: 3%;
-	}
+    .educationskills article + h2 {
+        padding-top: 3%;
+    }
 
-	.skills {
-		width: 60%;
-		margin: auto;
-	}
+    .skills {
+        width: 60%;
+        margin: auto;
+    }
 
     .skills h3 {
         display: inline-block;
-		padding-right: 3%;
-		text-align: left;
+        padding-right: 3%;
+        text-align: left;
     }
 
     .star {
@@ -235,5 +235,61 @@ aside {
 
     .experience img {
         max-width: 200px;
+    }
+}
+
+/* Interests */
+.interests h2,
+.interests h3,
+.interests p {
+    color: white;
+}
+
+.interests img {
+    float: left;
+    width: auto;
+    height: auto;
+    align-self: center;
+}
+
+.interests article {
+    width: 75%;
+    margin: auto;
+    clear: both;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+
+.interests aside {
+    float: right;
+    margin-left: 2%;
+}
+
+@media all and (min-width: 1000px) {
+
+    .interests img,
+    .interests aside,
+    .interests article {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    .interests h3 {
+        text-align: center;
+    }
+
+    .interests article {
+        width: calc(85%/3);
+        margin: auto;
+        height: auto;
+    }
+
+    .containerinterest {
+        width: 85%;
+        flex-wrap: nowrap;
+        display: flex;
+        margin: auto;
     }
 }
