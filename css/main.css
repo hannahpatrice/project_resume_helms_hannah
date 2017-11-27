@@ -148,7 +148,7 @@ aside {
 }
 
 h2 + .skills {
-	padding-top: 0;
+    padding-top: 0;
 }
 
 @media all and (min-width: 1000px) {
@@ -496,10 +496,18 @@ h2 + .skills {
         margin: auto;
     }
 
+    .interests p{
+        font-size: 25px;
+    }
+
     .interests h3 {
         text-align: center;
-        padding-bottom: 5%;
+        padding: 3%;
     }
+
+	.interests h2 {
+		padding-bottom: 5%;
+	}
 
     .interests article {
         width: calc(85%/3);
